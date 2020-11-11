@@ -32,7 +32,27 @@ Dibawah ini merupakan hasil output dari syntax diatas
 ![outputlatihan1](ss%20gambar/outputlatihan1.PNG)
 
 #### ANALISIS
-BELUMMM
+•	inisialisasi variabel terdapat pada syntax
+``` pyhton
+baris = 10
+kolom = baris
+```
+
+•	Untuk perulangan baris dan kolom menggunakan `nested for`
+``` pyhton
+for bar in range(baris):
+    for col in range(kolom):
+        tab=bar+col
+```
+
+•	Untuk menampikan hasil dari perulangan
+``` pyhton
+ print("{0:>5}".format(tab), end='')
+    print()
+```
+Fungsi `format string` agar text terlihat rapih menggunakan rata ke kanan sebanyak 5 karakter <br>
+Fungsi `end=''` agar output tidak membuat baris baru <br>
+
 
 
 ## Latihan 2
@@ -63,7 +83,20 @@ Dibawah ini merupakan hasil output dari syntax diatas
 ![outputlatihan2](ss%20gambar/outputlatihan2.PNG)
 
 #### ANALISIS
-BELUMMM
+•	Fungsi import random untuk membuat bilangan acak
+•	Untuk menentukan jumlah input yang diinginkan dan dikonversi ke dalam bilangan bulat (integer) yang dimasukan ke variable `hasil`
+``` pyhton
+ hasil = int(input("masukan nilai n: "))
+```
+•	Untuk pengulangan range yang diinputkan oleh variable `hasil`
+``` pyhton
+ for i in range(hasil):
+```
+•	Untuk menampilkan urutan data sesuai jumlah inputan dengan hasil di bawah 0.5
+``` pyhton
+ angkaDec = random.uniform(0, 0.5)
+```
+
 
 ## Labspy 2
 
@@ -119,7 +152,7 @@ for x in range(1,9):
         d = a*0.5
         print("laba bulan ke ",x,":",d)
     if(x==8):
-        e = a*0.5
+        e = a*0.2
         print("laba bulan ke ",x,":",e)
 total=b+b+c+c+d+d+d+e
 print("\Total : ", total)
