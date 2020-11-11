@@ -45,7 +45,7 @@ for bar in range(baris):
         tab=bar+col
 ```
 
-•	Untuk menampikan hasil dari perulangan
+•	Untuk menampilkan hasil dari perulangan
 ``` pyhton
  print("{0:>5}".format(tab), end='')
     print()
@@ -95,6 +95,7 @@ Dibawah ini merupakan hasil output dari syntax diatas
 •	Untuk menampilkan urutan data sesuai jumlah inputan dengan hasil di bawah 0.5
 ``` pyhton
  angkaDec = random.uniform(0, 0.5)
+ print("data ke", i, "=", angkaDec)
 ```
 
 
@@ -127,7 +128,25 @@ Dibawah ini merupakan hasil output dari syntax diatas
 ![outputlabspy02](ss%20gambar/outputlabspy02.PNG)
 
 #### ANALISIS
-BELUMMM
+•	Ketiga bilangan akan diinput oleh user dengan syntax seperti dibawah ini
+``` pyhton
+a=int(input("masukan bilangan pertama: "))
+b=int(input("masukan bilangan kedua: "))
+c=int(input("masukan ketiga: "))
+```
+•	Fungsi `if elif else` dibawah ini digunakan sebagai kondisi selection
+```python
+if a > b > c:
+    print(a, "adalah nilai terbesar")
+elif b > a and b > c:
+    print(b, "adalah nilai terbesar")
+else:
+    print(c, "adalah nilai terbesar")
+ ```
+Statement `If` yaitu bila suatu kondisi tertentu tercapai maka apa yang harus dilakukan.
+Statement `elif` apabila ketika kondisi lainnya tidak tercapai maka jalankan program.
+Sedangkan statement `else` akan berjalan ketika tidak ada suatu kondisi yang terpenuhi pada if dan elif.
+
 
 
 ## Program1
@@ -163,8 +182,25 @@ Dibawah ini merupakan hasil output dari syntax diatas
 ![outputprogram1](ss%20gambar/outputprogram1.PNG)
 
 #### ANALISIS
-BELUMMM
-
+•	Untuk pengulangan range yang diinputkan dengan value 1,9
+```python
+for x in range(1,9):
+ ```
+•	Fungsi `if` dibawah ini digunakan sebagai kondisi selection
+```python
+    if(x>=1 and x<=2):
+        b = a*0
+        print("laba bulan ke ",x,":",b)
+    if(x>=3 and x<=4):
+        c = a*0.1
+        print("laba bulan ke ",x,":",c)
+    if(x>=5 and x<=7):
+        d = a*0.5
+        print("laba bulan ke ",x,":",d)
+    if(x==8):
+        e = a*0.2
+        print("laba bulan ke ",x,":",e)
+ ```
 ## Lat 2
 
 ![soalLat2](ss%20gambar/soalLat2.PNG)
@@ -194,5 +230,31 @@ Dibawah ini merupakan hasil output dari syntax diatas
 ![outputlat2](ss%20gambar/outputlat2.PNG)
 
 #### ANALISIS
-BELUMMM
+•	Statement while berfungsi untuk melakukan perulangan
+```python
+while True:
+a=int(input("masukan bilangan : "))
+```
+While tersebut akan terus memproses variabel `a` yang mencetak `masukan bilangan`
+Atau sederhananya user akan diminta terus meninputkan masukan bilangan
+•	Sampai apabila user menginputkan angka 0 program akan berhenti
+```python
+if a == 0:
+        break
+```
+Karena if a == 0 maka break. 
+•	Kemudian program akan mencetak nilai terbesar melalui statement
+
+```python
+print(max, "merupakan bilangan terbesar")
+ ```
+ yang diproses dari statement
+ ```python
+if max < a:
+        max = a
+ ```
+
+
+#SEKIAN DAN TERIMAKASIH:)
+
 
