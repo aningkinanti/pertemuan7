@@ -8,7 +8,7 @@
 
 ### Latihan 1 
 
-![soallatihan1](ss%20gambar/soallatihan1.png)
+![soallatihan1](ss%20gambar/soallatihan1.PNG)
 
 Maka program yang saya buat sebagai berikut atau bisa dilihat di [Source Code](latihan1.py)
 
