@@ -143,9 +143,9 @@ elif b > a and b > c:
 else:
     print(c, "adalah nilai terbesar")
  ```
-Statement `If` yaitu bila suatu kondisi tertentu tercapai maka apa yang harus dilakukan.
-Statement `elif` apabila ketika kondisi lainnya tidak tercapai maka jalankan program.
-Sedangkan statement `else` akan berjalan ketika tidak ada suatu kondisi yang terpenuhi pada if dan elif.
+Statement `If` yaitu bila suatu kondisi tertentu tercapai maka apa yang harus dilakukan. <br>
+Statement `elif` apabila ketika kondisi lainnya tidak tercapai maka jalankan program. <br>
+Sedangkan statement `else` akan berjalan ketika tidak ada suatu kondisi yang terpenuhi pada if dan elif. <br>
 
 
 
@@ -255,6 +255,6 @@ if max < a:
  ```
 
 
-#SEKIAN DAN TERIMAKASIH:)
+# SEKIAN DAN TERIMAKASIH:)
 
 
