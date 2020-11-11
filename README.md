@@ -10,28 +10,27 @@
 
 ![soallatihan1](ss%20gambar/soallatihan1.PNG)
 
-Maka program yang saya buat sebagai berikut atau bisa dilihat di [Source Code](latihan1.py)
+#### SYNTAX
+berikut merupakan syntax untuk menampilkan program diatas
 
 ```python
-# helloow
+#author aningkinanti
 
 baris = 10
 kolom = baris
 
 for bar in range(baris):
     for col in range(kolom):
-        tab = bar+col
+        tab=bar+col
         print("{0:>5}".format(tab), end='')
     print()
 ```
 
-Penjelasan
+#### OUTPUT
+Dibawah ini merupakan hasil output dari syntax diatas
 
-1. Pendeklarasian variable
-```python
-baris = 10
-kolom = baris
-```
+![outputlatihan1](ss%20gambar/outputlatihan1.PNG)
+
 
 2. Untuk perulangan baris dan kolom menggunakan `nested for`
 ```python
