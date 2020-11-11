@@ -6,7 +6,7 @@
 **Kelas	  : TI.20.A2** <br>
 **Matkul	: Bahasa Pemrograman** <br>
 
-### Latihan 1 
+## Latihan 1 
 
 ![soallatihan1](ss%20gambar/soallatihan1.PNG)
 
@@ -31,52 +31,36 @@ Dibawah ini merupakan hasil output dari syntax diatas
 
 ![outputlatihan1](ss%20gambar/outputlatihan1.PNG)
 
-
-2. Untuk perulangan baris dan kolom menggunakan `nested for`
-```python
-for bar in range(baris):
-    for col in range(kolom):
-        tab = bar+col        
-```
-3. Untuk menampikan hasil dari perulangan
-     * Agar terlihat rapih menggunakan `format string` rata ke kanan sebanyak 5 karakter
-     * Agar tidak membuat baris baru menggunakan `end=''` (baris)
-     * Penggunaan `print()` untuk membuat baris baru (kolom)
-```python
-  print("{0:>5}".format(tab), end='')
-print()    
-```
-
-Maka program yang di hasil seperti berikut
-
-![hasil ke1](isi%20foto/hasil%201.png)
+#### ANALISIS
+BELUMMM
 
 
-### Latihan 2
+## Latihan 2
 
-* Saya diberikan tugas untuk membuat program :
-     * Tampilkan n bilangan acak yang lebih kecil dari 0.5
-     * Nilai n diisi pada saat runtime
-     
-Seperti pada gambar berikut
+![soallatihan2](ss%20gambar/soallatihan2.PNG)
 
-![output 2](isi%20foto/tugas%202.png)
-
-Maka program yang saya buat sebagai berikut atau bisa dilihat di [hasil Code](latihan2.py)
+#### SYNTAX
+berikut merupakan syntax untuk menampilkan program diatas
 
 ```python
+#author aning kinanti
+
 import random
 print(39*"=")
-print("Bilangan acak yang lebih kecil dari 0,5")
+print("author aning kinanti")
+print("soal : bilangan acak yang lebih kecil dari 0,5")
 print(39*"=")
-jum = int( input("Masukan nilai n : "))
+hasil = int(input("masukan nilai n: "))
 i = 0
-for i in range(jum):
+for i in range(hasil):
     i += 1
     angkaDec = random.uniform(0, 0.5)
-    print("Data ke", i, " = ", angkaDec)
- 
+    print("data ke", i, "=", angkaDec)
  ```
+#### OUTPUT
+Dibawah ini merupakan hasil output dari syntax diatas
+
+![outputlatihan2](ss%20gambar/outputlatihan2.PNG)
 
 Penjelasan
 
